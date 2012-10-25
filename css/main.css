@@ -19,9 +19,29 @@ textarea {
 }
 
 body {
+	width: 1024px;
+    height: 768px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
     font-size: 1em;
     line-height: 1.4;
 }
+
+a { font-family: georgia; font-style: italic; color: #585858; text-decoration: none; line-height: inherit; }
+a:hover { font-style: italic; font-weight: bold; background-color: #fff600; color: #585858; text-decoration: none; line-height: inherit; }
+a:focus { font-style: italic; font-weight: bold; background-color: #fff600; color: #585858; text-decoration: none; line-height: inherit; }
+
+p { font-family: georgia; font-style: italic; color: #585858; text-decoration: none; line-height: inherit; }
+
+
+
+#nav {
+	width: 1024px;
+    height: 48px;
+}
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
