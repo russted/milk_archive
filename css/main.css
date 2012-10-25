@@ -22,11 +22,12 @@ body {
 	width: 1024px;
     height: 768px;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 0px;
+    left: 0pc;
     overflow: hidden;
     font-size: 1em;
     line-height: 1.4;
+    background-color: black; 
 }
 
 a { font-family: georgia; font-style: italic; color: #585858; text-decoration: none; line-height: inherit; }
@@ -36,11 +37,6 @@ a:focus { font-style: italic; font-weight: bold; background-color: #fff600; colo
 p { font-family: georgia; font-style: italic; color: #585858; text-decoration: none; line-height: inherit; }
 
 
-
-#nav {
-	width: 1024px;
-    height: 48px;
-}
 
 
 /*
@@ -98,6 +94,12 @@ textarea {
     resize: vertical;
 }
 
+li {
+	list-style: none; 
+	position: relative;
+	float: left; 
+}
+
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
@@ -113,11 +115,53 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#container {
+	position: relative;
+	left: 50%; 
+}
+
+#main_content {
+background-color: #ccc; 
+	height: 416px; 
+	width: 1024px;
+	margin: 0px 0px 8px 0px; 
+}
 
 
 
+#nav {
+	height: 176px; 
+	overflow: hidden;
+	width: 1024px;
+	padding: 0px 0px;  
+}
 
+#thumbnails ul {
+	width: 100%;
+	padding: 0 0; 
+}
 
+#thumbnails li {
+	background-color: #ccc; 
+	height: 100px;
+	width: 168px;
+	margin: 0px 0px 0px 2px;
+	position: relative;
+	float: left;  
+}
+
+#thumbnails p {
+	text-transform: uppercase;
+}
+
+#thumbnails .hover {
+	display: none; 
+}
+
+#thumbnails .hover:hover{
+	display: block;
+	
+}
 
 
 
