@@ -130,15 +130,16 @@ li {
 
 
 #nav {
-	height: 200px; 
+	height: 175px; 
 	overflow: hidden;
 	width: 1024px;
 	padding: 0px 0px;  
 }
 
 #thumbnails {
-	height: 169px; 
-	width: 1024px; 
+	height: 100px; 
+	width: 1024px;
+	margin: 0px 0px 30px 0px;  
 }
 
 #thumbnails ul {
@@ -147,6 +148,7 @@ li {
 	width: 1600px;
 	height: 102px; 
 	padding: 0 0;
+	margin: 0 0; 
 	overflow: hidden;
 }
 
@@ -172,13 +174,23 @@ li {
 
 
 
+#years { background-color: #f3f3f3; border-bottom: #ebebeb 1px solid; height: 44px; width: 1024px;  }
+
+#years li { height: 44px; width: 84px;}
+
+#years span { color: #545454; font-family: Georgia, Times, serif; font-size: 14px; font-style: italic; margin: 0 auto; position: relative; top: 5px;  }
+
+#years .active { background-color: #fff600; font-weight: bold;  }
+
+#years .nonactive { color: #d3d3d3}
+
+#years .year_arrow { width: 63px; }
+#years #year_arrow_left { border-right: #ebebeb 1px solid; }
+#years #year_arrow_right { border-left: 1px #ebebeb solid; }
 
 
-
-
-
-
-
+#footer { background-color: #ffffff; height: 60px; position: relative; width: 1024px; }
+#footer img { float: right; height: 33px; margin: 16px 21px 0px 0px;  position: relative; width: 76px; }
 
 /* ==========================================================================
    Helper classes
