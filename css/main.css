@@ -34,7 +34,7 @@ a { font-family: georgia; font-style: italic; color: #585858; text-decoration: n
 a:hover { font-style: italic; font-weight: bold; background-color: #fff600; color: #585858; text-decoration: none; line-height: inherit; }
 a:focus { font-style: italic; font-weight: bold; background-color: #fff600; color: #585858; text-decoration: none; line-height: inherit; }
 
-p { font-family: georgia; font-style: italic; color: #585858; text-decoration: none; line-height: inherit; }
+p { font-family: georgia; color: #585858; text-decoration: none; line-height: inherit; }
 
 
 
@@ -117,11 +117,11 @@ li {
 
 #container {
 	position: relative;
-	left: 50%; 
+/* 	left: 50%;  */
 }
 
 #main_content {
-background-color: #ccc; 
+	background-color: #ccc; 
 	height: 416px; 
 	width: 1024px;
 	margin: 0px 0px 8px 0px; 
@@ -136,13 +136,23 @@ background-color: #ccc;
 	padding: 0px 0px;  
 }
 
+#thumbnails {
+	height: 169px; 
+	width: 1024px; 
+}
+
 #thumbnails ul {
-	width: 100%;
-	padding: 0 0; 
+	float: left; 
+	position: relative; 
+	width: 1600px;
+	height: 102px; 
+	padding: 0 0;
+	overflow: hidden;
 }
 
 #thumbnails li {
-	background-color: #ccc; 
+	border: 1px #ccc solid;
+	cursor: pointer;   
 	height: 100px;
 	width: 168px;
 	margin: 0px 0px 0px 2px;
@@ -150,18 +160,13 @@ background-color: #ccc;
 	float: left;  
 }
 
-#thumbnails p {
-	text-transform: uppercase;
-}
+#thumbnails p { color: #ededed; font-family: Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; left: 7px; position: absolute; text-transform: uppercase; top: 40px; width: 110px; }
 
-#thumbnails .hover {
-	display: none; 
-}
+#thumbnails ul li .hover { display: none; }
 
-#thumbnails .hover:hover{
-	display: block;
-	
-}
+#thumbnails ul li:hover .nohover { display: none; }
+
+#thumbnails ul li:hover .hover { display: block; }
 
 
 
