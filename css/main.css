@@ -176,16 +176,21 @@ li {
 
 #years { background-color: #f3f3f3; border-bottom: #ebebeb 1px solid; height: 44px; width: 1024px;  }
 
-#years li { height: 44px; width: 84px;}
+#years .year { height: 44px; width: 62px; padding: 0px 0px 0px 30px; }
 
-#years span { color: #545454; font-family: Georgia, Times, serif; font-size: 14px; font-style: italic; margin: 0 auto; position: relative; top: 5px;  }
+#years span { color: #545454; font-family: Georgia, Times, serif; font-size: 14px; font-style: italic; position: relative; top: 5px;  }
 
-#years .active { background-color: #fff600; font-weight: bold;  }
+#years .active { background-color: #fff600; font-weight: bold; }
+
+#years li a:hover span { background-color: #fff600; font-weight: normal;  }
+
+#years li a:hover .active { background-color: #fff600; font-weight: bold;  }
 
 #years .nonactive { color: #d3d3d3}
 
-#years .year_arrow { width: 63px; }
-#years #year_arrow_left { border-right: #ebebeb 1px solid; }
+
+#years .year_arrow { height: 44px; width: 50px; margin: 0 auto; }
+#years #year_arrow_left { border-right: 1px #ebebeb solid; }
 #years #year_arrow_right { border-left: 1px #ebebeb solid; }
 
 
