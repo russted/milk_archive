@@ -21,10 +21,11 @@ textarea {
 body {
 	width: 1024px;
     height: 768px;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 50%;
     left: 50%;
     margin-left: -512px;
+    margin-top: -328px;
     overflow: hidden;
     font-size: 1em;
     line-height: 1.4;
@@ -117,12 +118,7 @@ li {
    ========================================================================== */
 
 #container {
-	height: 660px;
-    top: 0px;
-    left: 0px;
-    margin-left: -512px;
-    margin-top: -328px;
-	position: absolute;
+	position: relative;
 /* 	left: 50%;  */
 }
 
@@ -130,27 +126,17 @@ li {
 	background-color: #000; 
 	height: 416px; 
 	width: 1024px;
-	margin: 21px 0px 8px 0px;
+	margin: 0px 0px 8px 0px;
 	text-align: center;
-	
 }
 
-#menu_content {
-	background-color: #000; 
-	height: 244px; 
-	width: 1024px;
-	margin: 0px 0px 0px 0px;
-	position: absolute;
-	
-}
 
 
 #nav {
 	height: 175px; 
 	overflow: hidden;
 	width: 1024px;
-	top: 0px;
-	padding: 0px 0px 0px 0px;  
+	padding: 0px 0px;  
 }
 
 #thumbnails {
