@@ -15,10 +15,20 @@
         <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        
-        
-        
+        <link rel="stylesheet" href="css/jquery.jscrollpane.css">
+		
+		<!-- latest jQuery direct from google's CDN -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+		</script>
+		
+		<!-- the mousewheel plugin - optional to provide mousewheel support -->
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+		        
+		<script type="text/javascript" src="js/main.js"></script>        
+		        
         <!-- GOOGLE ANALYTICS -->
         <script type="text/javascript">
 		  var _gaq = _gaq || [];
@@ -50,7 +60,7 @@
         	
 	        <div id="nav">
 	        	<div id="thumbnails">
-	        		<ul>
+	        		<ul id="scroll">
 	        			<li>
 	        				<a href="2005/video1.html" target="topFrame"><img src="img/2005/thumbs/batting_practice_thumb.jpg"></a>
 	        				<p class="nohover">"batting practice"</p>
@@ -153,8 +163,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
-        
+
     </body>
 </html>

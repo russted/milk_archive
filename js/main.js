@@ -6,6 +6,7 @@
 	var thumbCount = ulChildren.length;
 	var thumbPadding = thumbCount * 2;
 	var newWidth = thumbWidth * thumbCount;
+/* 	var scrollbar = 15; */
 	var finalWidth = newWidth + thumbPadding;
 
 
@@ -24,5 +25,10 @@
 (function($) {
     $(window).load(function() {
         changeWidth();
-    });
+    }),
+    
+$(function() {
+    ul.jScrollPane();
+	console.log('hello');
+});    
 })(jQuery);
