@@ -1,4 +1,5 @@
 /* outermost element for the scroller (stays still) */
+/*
 #scrollwrap {
     position:relative;
     overflow:hidden;
@@ -9,9 +10,11 @@
     -moz-box-shadow:0 0 20px #666;
     -webkit-box-shadow:0 0 20px #666;
 }
+*/
 
 /* the element that moves forward/backward */
 #scroll {
+/*
     position:relative;
     width:20000em;
     padding:20px 100px;
@@ -21,6 +24,7 @@
     color:#fff;
     text-shadow:5px 1px 1px #000;
     left:-100px;
+*/
 }
 
 .slider {
