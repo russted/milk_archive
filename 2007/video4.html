@@ -1,5 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
+<script type="text/javascript" src="../javascripts/top_up-min.js"></script>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title></title>
@@ -7,7 +10,13 @@
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/main.css">
 
-
+<script>
+	function PopupCenter(pageURL, title,w,h) {
+	var left = (screen.width/2)-(w/2);
+	var top = (screen.height/2)-(h/2);
+	var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+	} 
+</script>
 
 </head>
 
@@ -15,7 +24,7 @@
 
 <div id="main_content">
 
-<iframe src="http://player.vimeo.com/video/52512033" width="550" height="372" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<a href="javascript:void(0);" onclick="PopupCenter('../img/2007/4_FINAL_PRINT_ADS.jpg', 'myPop1',738,1062);"><img src="../img/2007/2007_4.jpg"></a>
 
 </div>
 
