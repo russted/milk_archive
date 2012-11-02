@@ -140,7 +140,7 @@ li {
 	background-color: #000000; 
 	color: #ffffff;
 	height: 416px; 
-	width: 200px;
+	width: 180px;
 	position: absolute;
 	top: 0px;
 	left: 0px; 
@@ -228,7 +228,7 @@ li {
 
 /* #thumbnails ul li img { display: block; position: absolute; } */
 
-#thumbnails p { color: #ededed; font-family: Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; left: 7px; position: absolute; text-transform: uppercase; top: 63px; width: 110px; text-align: left; }
+#thumbnails p { color: #ededed; font-family: Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; left: 7px; position: absolute; text-transform: uppercase; top: 63px; width: 130px; text-align: left; }
 
 #thumbnails ul li .hover { display: none; text-align: left; }
 
