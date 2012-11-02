@@ -129,9 +129,21 @@ li {
 #main_content {
 	background-color: #000; 
 	height: 416px; 
-	width: 1024px;
+	width: 740px;
 	margin: 21px 0px 8px 0px;
-	text-align: center;
+	text-align: left;
+	left: 284px;
+	
+}
+
+#main_contentLeft {
+	background-color: #000; 
+	color: #ffffff;
+	height: 416px; 
+	width: 258px;
+	margin: 21px 26px 8px 8px;
+	text-align: left;
+	left: 0px;
 	
 }
 
@@ -191,7 +203,7 @@ li {
 
 #thumbnails ul li:hover .nohover { display: none; text-align: left; }
 
-#thumbnails ul li:hover .hover { display: block; text-align: left; }
+#thumbnails ul li:hover .hover { display: block; text-align: left; color: #fff600; }
 
 
 
