@@ -127,25 +127,39 @@ li {
 }
 
 #main_content {
-	background-color: #000; 
 	height: 416px; 
-	width: 740px;
-	margin: 21px 0px 8px 0px;
-	text-align: left;
-	left: 284px;
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	margin: 21px auto ;
 	
 }
 
+
 #main_contentLeft {
-	background-color: #000; 
+	background-color: #000000; 
 	color: #ffffff;
 	height: 416px; 
-	width: 258px;
-	margin: 21px 26px 8px 8px;
-	text-align: left;
-	left: 0px;
-	
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+	margin: 21px 0px 0px 10px;
 }
+
+/*
+#filler_content {
+	background-color: #000; 
+	height: 416px; 
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 21px 0px 8px 0px;
+}
+*/
+
+
 
 #main_contentLeft p { 
 	color: #ffffff;
@@ -172,6 +186,7 @@ li {
 	left: 0px;
 	top: 0px;
 }
+
 
 
 #nav {
@@ -223,7 +238,7 @@ li {
 
 #thumbnails ul li:hover .hover { display: block; text-align: left; color: #fff600; }
 
-
+#thumbnails ul .active a p { color: #fff600; }
 
 #years { background-color: #f3f3f3; border-bottom: #ebebeb 1px solid; height: 44px; width: 1024px; }
 
