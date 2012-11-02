@@ -147,12 +147,30 @@ li {
 	
 }
 
+#main_contentLeft p { 
+	color: #ffffff;
+	text-align: left;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px; 
+	font-weight: normal;
+}
+
+#main_contentLeft h4 { 
+	color: #ffffff;
+	text-align: left;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px; 
+	font-weight: bold;	
+}
+
 #menu_content {
 	background-color: #000; 
 	height: 244px; 
 	width: 1024px;
 	margin: 0px 0px 0px 0px;
 	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 
 
