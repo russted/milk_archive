@@ -25,7 +25,7 @@
 		
 		
 		li.click(function () {
-			console.log("clkicked");
+/* 			console.log("clkicked"); */
 			li.removeClass("active");
 			$(this).addClass("active");
 		})	
